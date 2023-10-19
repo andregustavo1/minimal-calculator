@@ -622,12 +622,24 @@ video {
   height: 48px;
 }
 
+.h-auto{
+  height: auto;
+}
+
 .w-44{
   width: 11rem;
 }
 
 .w-\[48px\]{
   width: 48px;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[100\%\]{
+  width: 100%;
 }
 
 .cursor-pointer{
