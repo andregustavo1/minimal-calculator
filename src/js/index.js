@@ -75,4 +75,12 @@ function changeThemeImg() {
 
 document.addEventListener('DOMContentLoaded', changeThemeImg);
 
-// document.querySelector('link[rel="icon"]').href = `./src/images/favicon-${window.matchMedia("(prefers-color-scheme: light)").matches ? 'light' : 'dark'}.png`;
+const darkBrowser = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+const favicon = document.querySelector('link[rel="icon"]');
+
+if (darkBrowser) {
+    favicon.href = "./src/images/favicon-light.png";
+} else {
+    favicon.href = "./src/images/favicon-dark.png";
+}
