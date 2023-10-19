@@ -797,6 +797,14 @@ video {
   color: rgb(35 35 35 / var(--tw-text-opacity));
 }
 
+.caret-orange-600{
+  caret-color: #ea580c;
+}
+
+.caret-blue-600{
+  caret-color: #2563eb;
+}
+
 .outline-none{
   outline: 2px solid transparent;
   outline-offset: 2px;
