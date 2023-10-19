@@ -578,10 +578,6 @@ video {
   margin-top: 3.5rem;
 }
 
-.mt-60{
-  margin-top: 15rem;
-}
-
 .mt-64{
   margin-top: 16rem;
 }
@@ -841,20 +837,16 @@ video {
     left: unset;
   }
 
-  .max-sm\:ml-3{
-    margin-left: 0.75rem;
+  .max-sm\:mb-8{
+    margin-bottom: 2rem;
   }
 
-  .max-sm\:mr-3{
-    margin-right: 0.75rem;
+  .max-sm\:ml-1{
+    margin-left: 0.25rem;
   }
 
-  .max-sm\:mt-8{
-    margin-top: 2rem;
-  }
-
-  .max-sm\:mt-80{
-    margin-top: 20rem;
+  .max-sm\:ml-14{
+    margin-left: 3.5rem;
   }
 
   .max-sm\:mr-1{
@@ -865,44 +857,16 @@ video {
     margin-right: 3.5rem;
   }
 
-  .max-sm\:ml-14{
-    margin-left: 3.5rem;
-  }
-
-  .max-sm\:mb-8{
-    margin-bottom: 2rem;
-  }
-
-  .max-sm\:mt-72{
-    margin-top: 18rem;
-  }
-
-  .max-sm\:mt-12{
-    margin-top: 3rem;
-  }
-
-  .max-sm\:mt-\[\]{
-    margin-top: ;
-  }
-
-  .max-sm\:mt-\[50\%\]{
-    margin-top: 50%;
-  }
-
-  .max-sm\:ml-1{
-    margin-left: 0.25rem;
+  .max-sm\:mt-\[10px\]{
+    margin-top: 10px;
   }
 
   .max-sm\:mt-\[45\%\]{
     margin-top: 45%;
   }
 
-  .max-sm\:mt-\[5\%\]{
-    margin-top: 5%;
-  }
-
-  .max-sm\:mt-\[55\%\]{
-    margin-top: 55%;
+  .max-sm\:mt-\[75px\]{
+    margin-top: 75px;
   }
 
   .max-sm\:grid{
@@ -913,62 +877,28 @@ video {
     height: 36px;
   }
 
-  .max-sm\:w-36{
-    width: 9rem;
-  }
-
   .max-sm\:w-28{
     width: 7rem;
-  }
-
-  .max-sm\:w-\[48px\]{
-    width: 48px;
-  }
-
-  .max-sm\:w-\[32px\]{
-    width: 32px;
   }
 
   .max-sm\:w-\[36px\]{
     width: 36px;
   }
 
-  .max-sm\:gap-4{
-    gap: 1rem;
-  }
-
-  .max-sm\:gap-10{
-    gap: 2.5rem;
+  .max-sm\:gap-1{
+    gap: 0.25rem;
   }
 
   .max-sm\:gap-2{
     gap: 0.5rem;
   }
 
-  .max-sm\:gap-1{
-    gap: 0.25rem;
-  }
-
-  .max-sm\:gap-5{
-    gap: 1.25rem;
-  }
-
-  .max-sm\:gap-6{
-    gap: 1.5rem;
+  .max-sm\:gap-4{
+    gap: 1rem;
   }
 
   .max-sm\:gap-7{
     gap: 1.75rem;
-  }
-
-  .max-sm\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .max-sm\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .max-sm\:text-3xl{
@@ -979,5 +909,10 @@ video {
   .max-sm\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .max-sm\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
